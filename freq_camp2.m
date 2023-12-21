@@ -1,5 +1,5 @@
 % Creazione dell'oggetto seriale
-s = serial('/dev/ttyACM1');  % Sostituisci con la porta seriale corretta del tuo Arduino
+s = serial('/dev/ttyACM1');  % Sostituisci con la porta seriale corretta del tuo Arduino 
 set(s, 'BaudRate', 9600);
 
 % Apertura della connessione seriale
